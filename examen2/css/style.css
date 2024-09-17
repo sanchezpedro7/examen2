@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+
+@font-face{
+	font-family: 'Catamaram';
+	src:url("../fonts/Catamaran-VariableFont_wght.ttf");
+}
+	
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+	--color-blanco: #fff;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+#hero{
+	padding: 40px;
+	background-image: url("../img/slider-glob.png");
+	background-color: var(--color-negro);
+}
+
+.line{
+	border: none;
+}
+
+#hero h2{
+	color: var(--color-blanco);
+	font-weight: 400;
+	text-align: left;
+}
+
+
+
+#hero h1{
+	color: var(--color-naranja);
+	font-weight: 400;
+	text-align: left;
+}
+
+#hero p{
+	color:var(--colo-contenido);
+	font-size: 16px;
+}
+
+#hero a{
+	color:var(--color-contenido);
+	font-size: 15px;
+	text-align: center;
+}
+
+#hero .btn-warning{
+	border-radius: 40px;
+}
+
+#popular-goods{
+	padding: 40px;
+}
+
+
+footer{
+	background-color: #282932;
+	background-image: url("../img/footer-bg.png");
+	background-size: cover;
+	padding-top: 25px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 11px;
+	font-weight: 500;
+	
+}
+
+
+footer p span{
+	color: #f7b614;
+}
+
+footer #copy{
+	padding: 15px;
+	margin-top: 5%;
+	color: #fff;
+}
+
